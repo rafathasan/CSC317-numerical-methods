@@ -1,4 +1,4 @@
-load("mnist_train.mat");
+load("./dataset/mnist_train.mat");
 k = 20;
 digits = digits(:,1:4000);
 [n, m] = size(digits);
